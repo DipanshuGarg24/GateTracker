@@ -1,46 +1,55 @@
 import streamlit as st
+from data import *
 
-# basic like title
-# text and some thing different
-#
-# st.title("Hi What are you doing write now :) ")
-# st.text("hi my name is dipanshu garg")
-#
-# x1 = list(st.columns(4))
-# x1[0].text("hii")
-# x1[1].text("hii")
-# x1[2].text("hii")
-# x1[3].text("hii")
-#
-# # x2.text("hello")
-#
-# # Lets Create that whatever i am thinking of
-# st.markdown("<H1>Hi my name is dipanshu garg </H1>",unsafe_allow_html=True)
+# st.set_page_config(layout="wide")
 
-def makeContent():
-    st.markdown("<h1 style='text-align: center;'>Computer Network</h1>", unsafe_allow_html=True)
-    st.markdown("<hr>",unsafe_allow_html=True)
+# Title :)
+st.markdown("<h1 style='text-align:center'>🎯 Gate Tracker 🏴‍☠️</h1>",unsafe_allow_html=True)
+st.divider()
+#-----------------------------------------------------------------------------
 
-    # making the coulmns
-    # lets say five coulmns
-    head = list(st.columns(5))
-    head[0].text("")
-    head[1].text("Concept")
-    head[2].text("1.Revision")
-    head[3].text("PYQS")
-    head[4].text("revision")
+# -- Getting the Data :)
+# Become easyfor me
 
-    x = list(st.columns(5))
-    x[0].text("IPV4 Adressing")
-    x[1].checkbox("",key=2)
-    x[2].checkbox("",key=3)
-    x[3].checkbox("",key=4)
 
-    y = list(st.columns(5))
-    y[0].text(" Error Control")
-    y[1].checkbox("", key=21)
-    y[2].checkbox("", key=31)
-    y[3].checkbox("", key=41)
-    topics = ["IPV4 Adressing","Error Control"]
+# -- For Updating the checkbox
+def updateCheckbox(subName):
+    if subName == None:
+        return
+    x = st.button(f"HEllo {subName}")
+    if x:
+        st.checkbox("hellp")
 
-makeContent()
+# login system :)
+
+login = True
+if not login:
+    pass
+else:
+    st.info("Note : Topic with * marks are important")
+    subSelect = st.selectbox("Choose the Subject Name",[None , "Operating system","Computer Organization"],index=0)
+    # here i need to display the content of the choosen subject
+    updateCheckbox(subSelect)
+
+
+# ------------------------------------------------------------------
+# lets make some footer :)
+st.divider()
+st.markdown("<h5 style = 'text-align:center'>Made with 💝 By Dipanshu Garg</h1>",unsafe_allow_html=True)
+st.text("")
+# making some social media buttons :)
+st.markdown("""
+    <div style="display: flex; justify-content:center;">
+        <div style="margin-right: 20px;">
+              <a href='https://www.facebook.com/YourPage'><img src='https://img.icons8.com/fluent/48/000000/gmail.png' width='30'></a>
+        </div>
+        <div  style="margin-right: 20px;">
+            <a href='https://www.facebook.com/YourPage'><img src='https://img.icons8.com/fluent/48/000000/linkedin.png' width='30'></a>
+        </div>
+        <div >
+            <a href='https://www.facebook.com/YourPage'><img src='https://img.icons8.com/fluent/48/000000/instagram-new.png' width='30'></a>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+
