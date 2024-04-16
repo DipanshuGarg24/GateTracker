@@ -1,5 +1,5 @@
 import streamlit as st
-from data import *
+# from data import *
 import time
 # st.set_page_config(layout="wide")
 # Title :)
