@@ -1,5 +1,5 @@
 import streamlit as st
-# from data import *
+from data import *
 import time
 # st.set_page_config(layout="wide")
 # Title :)
@@ -8,6 +8,8 @@ st.divider()
 #-----------------------------------------------------------------------------
 
 OvProg = 25
+
+
 
 # -- Getting the Data :)
 # Become easyfor me
@@ -25,29 +27,36 @@ def LoadData():
 def StoreData():
     pass
 
-def updateCheckbox(subName):
-    if subName == None:
+def updateCheckbox(subindex):
+    if subindex == 0:
         return
-    st.info("Note : Topic with * marks are important")
     st.text("")
+    st.subheader(f"{SubList[subindex]}")
+    st.caption("Your Subject Progress : ")
     st.progress(10)
+    st.text("")
+    subject = SubList[subindex]
+    if subject not in st.session_state:
+        # Initialize checkbox values for the subject
+        st.session_state[subject] = {}
+        for i in range(20):
+            st.session_state[subject][f"topic_{i}"] = False
+
+    subjectref = st.session_state[subject]
+
     with st.container(height=300,border=True):
-        st.checkbox("1.Computer Network")
-        st.checkbox("2.Operating system")
-        st.checkbox("3.Computer Organization Architecture")
-        st.checkbox("4.")
-        st.checkbox("5.")
-        st.checkbox("6.")
-        st.checkbox("7.")
-        st.checkbox("8.")
-        st.checkbox("9.")
-        st.checkbox("10.")
-        st.checkbox("11.")
+        for i in range(20):
+            topic_key = f"topic_{i}"
+            subjectref[topic_key] = st.checkbox(f"Topic {i + 1}{subject}",subjectref[topic_key])
+
+
 
 # login system :)
 
 
 login = True
+
+
 
 if not login:
     with st.empty() as c:
@@ -57,9 +66,9 @@ else:
     st.caption(f"Your Overall Progress : {OvProg}%")
     progBar = st.progress(OvProg)
     st.divider()
-    subSelect = st.selectbox("Choose the Subject Name",[None , "Operating system","Computer Organization"],index=0)
+    subSelect = st.selectbox("Choose the Subject Name",SubList,index=0)
     # here i need to display the content of the choosen subject
-    updateCheckbox(subSelect)
+    updateCheckbox(SubList.index(subSelect))
 
 
 # ------------------Save The Progress in the firebase -------
