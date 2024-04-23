@@ -102,4 +102,6 @@
 import streamlit as st 
 st.header("Hello World 😋")
 
+with st.container():
+    st.camera_input("click your pic")
 
