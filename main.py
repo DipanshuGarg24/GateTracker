@@ -102,6 +102,7 @@
 import streamlit as st 
 st.header("Hello World 😋")
 
+st.audio('Kbps.mp3')
 with st.container():
     st.camera_input("click your pic")
 
