@@ -3,12 +3,13 @@ import time
 
 import streamlit as st
 
-# st.set_page_config(layout="wide")
+x = int(streamlit_js_eval(js_expressions='screen.width', key = 'SCR'))
+if x<=1000:
+    st.set_page_config(layout="wide")
 st.markdown("""
         <style>
                .block-container {
                     padding-top: 1rem;
-                    
                 }
         </style>
         """, unsafe_allow_html=True)
