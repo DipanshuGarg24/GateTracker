@@ -488,16 +488,18 @@ By following these strategies, you can effectively manage your time and excel in
         with st.expander("Q9. There are only 8-9 months left until the GATE exam. Can I still crack it?"): #10
             with st.chat_message("ai"):
                 st.write('''Yes, you can still crack the GATE CSE exam with 8-9 months of preparation if you use your time wisely. Here are some tips:
-    1. **Create a Study Plan**: Break the syllabus into sections and allocate specific times for each subject. Stick to this schedule.
-    2. **Focus on Key Subjects**: 
-       - Start with important subjects like Data Structures, Algorithms, Operating Systems, Computer Networks, and Databases.
-       - Group related subjects (like C - Data Structures - Algorithms, DE - COA - OS) and study them in order.
-    3. **Daily Practice**: Practice math and aptitude every day since they are crucial for the exam.
-    4. **Use Good Resources**: Refer to standard textbooks and online resources. Use free platforms like YouTube for better understanding.
-    5. **Regular Revision**: Revise regularly to keep concepts fresh. Make concise notes for quick revision.
-    6. **Mock Tests and Previous Papers**: Start solving mock tests and previous years’ papers after covering a good portion of the syllabus. Analyze your performance and improve weak areas.
-    7. **Stay Consistent and Motivated**: Study regularly without long breaks. Set small goals and celebrate your achievements to stay motivated.
-    \nBy following these tips and staying focused, you can make the most of your preparation time and perform well in the GATE CSE exam.''')
+1. **Create a Study Plan**: Break the syllabus into sections and allocate specific times for each subject. Stick to this schedule.
+2. **Focus on Key Subjects**: 
+   - Start with important subjects like Data Structures, Algorithms, Operating Systems, Computer Networks, and Databases.
+   - Group related subjects (like C - Data Structures - Algorithms, DE - COA - OS) and study them in order.
+3. **Daily Practice**: Practice math and aptitude every day since they are crucial for the exam.
+4. **Use Good Resources**: Refer to standard textbooks and online resources. Use free platforms like YouTube for better understanding.
+5. **Regular Revision**: Revise regularly to keep concepts fresh. Make concise notes for quick revision.
+6. **Mock Tests and Previous Papers**: Start solving mock tests and previous years’ papers after covering a good portion of the syllabus. Analyze your performance and improve weak areas.
+7. **Stay Consistent and Motivated**: Study regularly without long breaks. Set small goals and celebrate your achievements to stay motivated.
+
+By following these tips and staying focused, you can make the most of your preparation time and perform well in the GATE CSE exam.
+''')
         with st.expander("Q10. How many hours should I study daily for the GATE exam?"): #11
 
             with st.chat_message(name='user'):
@@ -513,18 +515,19 @@ By following these strategies, you can effectively manage your time and excel in
         with st.expander("Q13. What is the importance of short notes in GATE preparation, and how are they useful?"): #15
             with st.chat_message("user"):
                 st.write('''Short notes are extremely important for GATE preparation. Imagine you have studied all the subjects and revised them as well. To quickly review everything, you will need short notes. When we are revising a few days before the GATE exam, it becomes difficult to go through long notes. That’s why we use short notes.
-    
-    Now, the question is how to make short notes. Short notes should always be concise and to the point, and they should cover fewer pages. Showcase all your art and skill in making these short notes. Create your short notes after completing a subject and during your first revision.''')
+
+Now, the question is how to make short notes. Short notes should always be concise and to the point, and they should cover fewer pages. Showcase all your art and skill in making these short notes. Create your short notes after completing a subject and during your first revision.
+''')
         with st.expander("Q14. I am unable to solve problems even though I understand the topics. What should I do? I feel frustrated."): #16
             with st.chat_message("user"):
                 st.write('''If you find that you can't solve questions even though you understand the topics during lectures—where everything seems clear but you still struggle with solving questions—then here's a strategy that might help. Initially, when you start solving questions, look at the solutions for the first 10-20 questions. Learn how to approach the questions from these solutions. Then, classify your mistakes into categories such as: 
-    
-    1. You couldn't solve the question because you hadn't revised properly.
-    2. You made a silly mistake.
-    3. You didn't understand the approach, which is why you couldn't solve the question.
-    
-    Work on the specific problem that prevented you from solving each question. Consistent practice will improve your problem-solving skills and deepen your understanding. Over time, you'll develop the ability to tackle questions independently and confidently. Remember, **practice is the key**.''')
 
+1. You couldn't solve the question because you hadn't revised properly.
+2. You made a silly mistake.
+3. You didn't understand the approach, which is why you couldn't solve the question.
+
+Work on the specific problem that prevented you from solving each question. Consistent practice will improve your problem-solving skills and deepen your understanding. Over time, you'll develop the ability to tackle questions independently and confidently. Remember, **practice is the key**.
+''')
         with st.expander("Q15. Which test series should I buy for the GATE exam?"): #18
             with st.chat_message(name='user'):
                 st.write("Test series play a vital role in GATE preparation, and they should be chosen wisely. The test series should have very few errors and contain exam-oriented questions that are not too hard or too easy. My personal suggestion (not a paid promotion) is to buy test series from Go Classes or Unacademy.")
