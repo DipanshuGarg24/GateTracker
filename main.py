@@ -356,86 +356,90 @@ with x[1].container():
         with st.expander("Q4. How can I start my preparation for the GATE exam? Can you provide a roadmap?"): #4
             with st.chat_message("user"):
                 st.write('''Hello Everyone,
-    
-    \nHere is a complete roadmap for a self-learner to prepare for the GATE CSE exam.
-    \nRoadmap for GATE CSE Preparation (May to January)
-    \nMay: Foundation Phase (First 10 Days)
-    1. **Understand GATE Syllabus and Exam Pattern**
-       - Familiarize yourself with the complete GATE CSE syllabus.
-       - Understand the weightage of different subjects and the exam pattern.
-       - Review previous years' question papers to get an idea of the types of questions asked.
-    
-    2. **Gather Basic Resources**
-       - Collect all necessary study materials such as standard textbooks, online resources, and notes.
-       - Download and organize important lecture notes, PDFs, and YouTube playlists.
-    
-    3. **Plan Your Study Schedule**
-       - Create a detailed study plan for the next 8 months.
-       - Allocate time for each subject based on its weightage and your familiarity with it.
-       - Include regular breaks and revision periods in your schedule.
-    
-    **4. Daily Practice of Mathematics and Aptitude**
-       - Dedicate 30 minutes each day to practicing Mathematics and Aptitude.
-       - Use any good resource or book for practice.
-    
-    \nMay - June: Core Subjects Phase
-    1. **Start with Core Subjects**
-       - Subjects to cover:
-         - C Programming
-         - Data Structures (DS)
-         - Algorithms
-         - Database Management Systems (DBMS)
-       - Read recommended textbooks such as CLRS for Algorithms.
-       - Take notes while watching lectures and keep them short and crisp.
-       - Solve basic Previous Year Questions (PYQs) during the subject completion.
-    
-    \nJuly - August: Deep Dive Phase
-    2. **Deep Dive into Major Subjects**
-       - Subjects to cover:
-         - Computer Networks (CN)
-         - Theory of Computation (TOC)
-         - Compiler Design (CD)
-         - Operating Systems (OS)
-         - Digital Logic Design (DE)
-         - Discrete Mathematics (DM)
-    
-    3. **Consistent Practice and Note-Taking**
-       - Solve PYQs alongside learning each subject.
-       - Create PowerPoint presentations (PPTs) for each subject and include difficult problems.
-       - Daily revision before starting new videos.
-    
-    #### September - October: Consolidation Phase
-    4. **Strengthen Understanding and Practice More**
-       - Subjects to cover:
-         - Mathematics (complete Revision)
-         - Computer Organization and Architecture (COA)
-       - Start solving subject-wise test series.
-       - Add any extra points learned during problem-solving to your notes.
-       - Continue daily practice of Mathematics and Aptitude.
-    
-    #### November - December: Intensive Practice and Revision Phase
-    5. **Full Subject Revision and Mock Tests**
-       - Solve two previous year papers daily.
-       - Continue with test series: start with subject-wise tests and progress to full-length mock tests.
-       - Thoroughly revise all subjects.
-       - Focus on solving complex problems and revising key concepts.
-    
-    #### January: Final Touch-Up Phase
-    6. **Final Revision and Exam Strategy**
-       - Daily 30-minute meditation to maintain focus and reduce stress.
-       - Comprehensive daily revision.
-       - Main focus on revision and solving PYQs.
-       - Practice time management and simulate exam conditions with mock tests.
-    
-    ### Additional Tips
-    - **Daily Routine**: Stick to a consistent daily study routine.
-    - **Health**: Maintain a balanced diet and get adequate sleep.
-    - **Breaks**: Take regular short breaks to avoid burnout.
-    - **Motivation**: Keep yourself motivated and positive throughout your preparation.
-    
-    Share this roadmap in your network and help fellow aspirants. 
-    
-    All the best, GATE 25 Aspirants!''')
+
+Here is a complete roadmap for a self-learner to prepare for the GATE CSE exam.
+
+**Roadmap for GATE CSE Preparation (May to January)**
+
+**Foundation Phase (First 10 Days)**
+**May:**
+1. **Understand GATE Syllabus and Exam Pattern**
+- Familiarize yourself with the complete GATE CSE syllabus.
+- Understand the weightage of different subjects and the exam pattern.
+- Review previous years' question papers to get an idea of the types of questions asked.
+
+2. **Gather Basic Resources**
+- Collect all necessary study materials such as standard textbooks, online resources, and notes.
+- Download and organize important lecture notes, PDFs, and YouTube playlists.
+
+3. **Plan Your Study Schedule**
+- Create a detailed study plan for the next 8 months.
+- Allocate time for each subject based on its weightage and your familiarity with it.
+- Include regular breaks and revision periods in your schedule.
+
+4. **Daily Practice of Mathematics and Aptitude**
+- Dedicate 30 minutes each day to practicing Mathematics and Aptitude.
+- Use any good resource or book for practice.
+
+**Core Subjects Phase (May - June)**
+1. **Start with Core Subjects**
+- Subjects to cover:
+  - C Programming
+  - Data Structures (DS)
+  - Algorithms
+  - Database Management Systems (DBMS)
+- Read recommended textbooks such as CLRS for Algorithms.
+- Take notes while watching lectures and keep them short and crisp.
+- Solve basic Previous Year Questions (PYQs) during the subject completion.
+
+**Deep Dive Phase (July - August)**
+2. **Deep Dive into Major Subjects**
+- Subjects to cover:
+  - Computer Networks (CN)
+  - Theory of Computation (TOC)
+  - Compiler Design (CD)
+  - Operating Systems (OS)
+  - Digital Logic Design (DE)
+  - Discrete Mathematics (DM)
+
+3. **Consistent Practice and Note-Taking**
+- Solve PYQs alongside learning each subject.
+- Create PowerPoint presentations (PPTs) for each subject and include difficult problems.
+- Daily revision before starting new videos.
+
+**Consolidation Phase (September - October)**
+4. **Strengthen Understanding and Practice More**
+- Subjects to cover:
+  - Mathematics (complete Revision)
+  - Computer Organization and Architecture (COA)
+- Start solving subject-wise test series.
+- Add any extra points learned during problem-solving to your notes.
+- Continue daily practice of Mathematics and Aptitude.
+
+**Intensive Practice and Revision Phase (November - December)**
+5. **Full Subject Revision and Mock Tests**
+- Solve two previous year papers daily.
+- Continue with test series: start with subject-wise tests and progress to full-length mock tests.
+- Thoroughly revise all subjects.
+- Focus on solving complex problems and revising key concepts.
+
+**Final Touch-Up Phase (January)**
+6. **Final Revision and Exam Strategy**
+- Daily 30-minute meditation to maintain focus and reduce stress.
+- Comprehensive daily revision.
+- Main focus on revision and solving PYQs.
+- Practice time management and simulate exam conditions with mock tests.
+
+**Additional Tips**
+- **Daily Routine**: Stick to a consistent daily study routine.
+- **Health**: Maintain a balanced diet and get adequate sleep.
+- **Breaks**: Take regular short breaks to avoid burnout.
+- **Motivation**: Keep yourself motivated and positive throughout your preparation.
+
+Share this roadmap in your network and help fellow aspirants.
+
+All the best, GATE 25 Aspirants!
+''')
         with st.expander("Q5. From which subject should I start my GATE preparation?"): #5
              with st.chat_message("user"):
                  st.write('''You can start your preparation with any subject, but it's helpful to follow certain groupings for a better understanding. Here are some suggested sequences:
