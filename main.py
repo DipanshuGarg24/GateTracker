@@ -64,7 +64,7 @@ with x[1].container():
     st.divider()
 
     with st.expander("Youtube Video Playlist and Videos "):
-            st.success("Simply click on the names, and you'll be automatically redirected to the YouTube playlist.")
+           st.success("Simply click on the names, and you'll be automatically redirected to the YouTube playlist.")
            with st.container(border=True):
 
                # 1
