@@ -357,11 +357,9 @@ with x[1].container():
             with st.chat_message("user"):
                 st.write('''Hello Everyone,
     
-    Here is a complete roadmap for a self-learner to prepare for the GATE CSE exam.
-    
-    ### Roadmap for GATE CSE Preparation (May to January)
-    
-    #### May: Foundation Phase (First 10 Days)
+    \nHere is a complete roadmap for a self-learner to prepare for the GATE CSE exam.
+    \nRoadmap for GATE CSE Preparation (May to January)
+    \nMay: Foundation Phase (First 10 Days)
     1. **Understand GATE Syllabus and Exam Pattern**
        - Familiarize yourself with the complete GATE CSE syllabus.
        - Understand the weightage of different subjects and the exam pattern.
@@ -380,7 +378,7 @@ with x[1].container():
        - Dedicate 30 minutes each day to practicing Mathematics and Aptitude.
        - Use any good resource or book for practice.
     
-    #### May - June: Core Subjects Phase
+    \nMay - June: Core Subjects Phase
     1. **Start with Core Subjects**
        - Subjects to cover:
          - C Programming
@@ -391,7 +389,7 @@ with x[1].container():
        - Take notes while watching lectures and keep them short and crisp.
        - Solve basic Previous Year Questions (PYQs) during the subject completion.
     
-    #### July - August: Deep Dive Phase
+    \nJuly - August: Deep Dive Phase
     2. **Deep Dive into Major Subjects**
        - Subjects to cover:
          - Computer Networks (CN)
