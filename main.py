@@ -351,9 +351,8 @@ with x[1].container():
         with st.expander("Q3. Is it possible to crack the GATE exam without any coaching help?"): #3
             with st.chat_message("user"):
                 st.write('''Yes, it is possible to crack the GATE exam without any paid coaching. Many of my friends and I got good ranks without any coaching help. You just need a proper plan and the right resources, like YouTube videos and good books.
-    
-    However, taking coaching can be better because coaching gives you a structured way to study all the topics. This is especially helpful if you are working a job. 
-    \nIf you have a job, I suggest you definitely take coaching and not try to do self-study. But if you are in college and have enough time, self-study can work well. You can use the free resources and study at your own pace.''')
+                        \nHowever, taking coaching can be better because coaching gives you a structured way to study all the topics. This is especially helpful if you are working a job. 
+                    \nIf you have a job, I suggest you definitely take coaching and not try to do self-study. But if you are in college and have enough time, self-study can work well. You can use the free resources and study at your own pace.''')
         with st.expander("Q4. How can I start my preparation for the GATE exam? Can you provide a roadmap?"): #4
             with st.chat_message("user"):
                 st.write('''Hello Everyone,
