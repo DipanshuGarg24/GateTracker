@@ -443,13 +443,14 @@ All the best, GATE 25 Aspirants!
         with st.expander("Q5. From which subject should I start my GATE preparation?"): #5
              with st.chat_message("user"):
                  st.write('''You can start your preparation with any subject, but it's helpful to follow certain groupings for a better understanding. Here are some suggested sequences:
-    
-    - **C - Data Structures - Algorithms**: These three subjects should be studied in sequence as they build on each other.
-    - **Digital Electronics (DE) - Computer Organization and Architecture (COA) - Operating Systems (OS)**: These subjects are related and should be tackled together.
-    - **Theory of Computation (TOC) - Compiler Design (CD)**: These are best studied in conjunction.
-    - **Database Management Systems (DBMS) and Computer Networks (CN)**: These can be studied individually at any time.
-    
-    Additionally, make sure to practice math and aptitude daily to keep your skills sharp.''')
+
+- **C - Data Structures - Algorithms**: These three subjects should be studied in sequence as they build on each other.
+- **Digital Electronics (DE) - Computer Organization and Architecture (COA) - Operating Systems (OS)**: These subjects are related and should be tackled together.
+- **Theory of Computation (TOC) - Compiler Design (CD)**: These are best studied in conjunction.
+- **Database Management Systems (DBMS) and Computer Networks (CN)**: These can be studied individually at any time.
+
+Additionally, make sure to practice math and aptitude daily to keep your skills sharp.
+''')
 
         with st.expander("Q6. When should I start taking test series for the GATE exam?"): #7
             # st.audio('Kbps.mp3')
@@ -459,19 +460,21 @@ All the best, GATE 25 Aspirants!
         with st.expander("Q7. How to manage college studies and Gate Preparation ?"):  #
             with st.chat_message("user"):
                 st.write('''Managing college studies with GATE preparation can be simple, especially if you're in a tier 3 college where exams might not be very tough. Most college subjects overlap with the GATE syllabus, so GATE preparation directly helps with college studies. Here's how to save time and manage both effectively:
-    
-    ### Key Points to Save Time
-    - **Stop Wasting Time**: Avoid unproductive activities like unnecessary socializing or bunking classes.
-    - **Complete College Work in College**: Finish assignments and study during college hours to free up time for GATE prep later.
-    - **Avoid Extra Burden**: Don’t take on additional responsibilities that can add stress.
-    - **Skip Unnecessary Lectures**: If possible, skip lectures that don't add value to your GATE preparation or college understanding.
-    
-    ### Additional Tips**Set a Consistent Routine**: Establish a daily study schedule that balances both college work and GATE prep.
-    - **Use Technology**: Utilize online resources and apps for efficient GATE study.
-    - **Prioritize Important Tasks**: Focus on high-yield topics crucial for both college exams and GATE.
-    - **Balanced Lifestyle**: Include relaxation and leisure activities to avoid burnout.
-    
-    By following these strategies, you can effectively manage your time and excel in both college studies and GATE preparation. Stay organized, focused, and consistent.''')
+
+### Key Points to Save Time
+- **Stop Wasting Time**: Avoid unproductive activities like unnecessary socializing or bunking classes.
+- **Complete College Work in College**: Finish assignments and study during college hours to free up time for GATE prep later.
+- **Avoid Extra Burden**: Don’t take on additional responsibilities that can add stress.
+- **Skip Unnecessary Lectures**: If possible, skip lectures that don't add value to your GATE preparation or college understanding.
+
+### Additional Tips
+- **Set a Consistent Routine**: Establish a daily study schedule that balances both college work and GATE prep.
+- **Use Technology**: Utilize online resources and apps for efficient GATE study.
+- **Prioritize Important Tasks**: Focus on high-yield topics crucial for both college exams and GATE.
+- **Balanced Lifestyle**: Include relaxation and leisure activities to avoid burnout.
+
+By following these strategies, you can effectively manage your time and excel in both college studies and GATE preparation. Stay organized, focused, and consistent.
+''')
 
         with st.expander("Q8. If I want to take coaching, which coaching institute should I choose for the GATE exam?"): #9
             with st.chat_message('user'):
