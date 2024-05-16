@@ -2,6 +2,7 @@
 import time
 
 import streamlit as st
+from streamlit_js_eval import streamlit_js_eval
 
 x = int(streamlit_js_eval(js_expressions='screen.width', key = 'SCR'))
 if x<=1000:
