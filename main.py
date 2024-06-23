@@ -321,7 +321,7 @@ with x[1].container():
 
 
     st.markdown("<h1>Frequently Asked Questions .... </h1>",unsafe_allow_html=True)
-    x = st.checkbox("FAQS click here ",value=0)
+    x = st.checkbox("FAQS click here ",value=1)
     if x:
         # Ques 1
         with st.expander("Q1. What is the GATE exam? Who can give this exam?"):
