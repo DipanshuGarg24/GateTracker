@@ -59,7 +59,8 @@ with x[1].container():
 
     # HERE I WILL PROVIDE SOME BUTTONS
     # if st.("www.google.com"):
-    st.link_button(url="https://t.me/+UmE2V3qWGjlmNjNl",label="Preparation Material",type="primary",use_container_width=True)
+        
+    st.link_button(url="https://t.me/+EDyXlTTlMmRmYzQ1",label="Preparation Material",type="primary",use_container_width=True)
         # st.info("Under construction ... once complete i will notfiy through linkedin post ")
     st.divider()
 
@@ -560,14 +561,14 @@ Work on the specific problem that prevented you from solving each question. Cons
     # here all the questions end
 
     # section for any doubt then person can ask :)
-    if 'submitted' not in st.session_state:
-        st.session_state.submitted = False
+    # if 'submitted' not in st.session_state:
+    #     st.session_state.submitted = False
 
 
-    with st.container():
-        st.write("---")
-        st.header("Still doubt left ... Ask your Question")
-        st.warning("Please avoid asking unnecessary questions that have already been answered above or that can be resolved with a bit of common sense.")
+    # with st.container():
+    #     st.write("---")
+    #     st.header("Still doubt left ... Ask your Question")
+    #     st.warning("Please avoid asking unnecessary questions that have already been answered above or that can be resolved with a bit of common sense.")
 
         # with st.form(key='contact_form'):
         #     col1,col2 = st.columns(2)
@@ -595,16 +596,16 @@ Work on the specific problem that prevented you from solving each question. Cons
         #     #     st.write("slider", slider_val, "checkbox", checkbox_val)
 
         # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
-        contact_form = """
-        <form action="https://formspree.io/f/xoqgbppn" method="POST">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="text" name="name" placeholder="Your name" required>
-            <input type="email" name="email" placeholder="Your email" required>
-            <textarea name="message" placeholder="Your message here" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-        """
-        st.markdown(contact_form, unsafe_allow_html=True)
+        # contact_form = """
+        # <form action="https://formspree.io/f/xoqgbppn" method="POST">
+        #     <input type="hidden" name="_captcha" value="false">
+        #     <input type="text" name="name" placeholder="Your name" required>
+        #     <input type="email" name="email" placeholder="Your email" required>
+        #     <textarea name="message" placeholder="Your message here" required></textarea>
+        #     <button type="submit">Send</button>
+        # </form>
+        # """
+        # st.markdown(contact_form, unsafe_allow_html=True)
 
 
     #footer
