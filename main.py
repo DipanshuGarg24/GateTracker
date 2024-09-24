@@ -55,7 +55,7 @@ with x[1].container():
     st.markdown("<h1 style='text-align:center'>🎯🎯 GATE 🎯🎯 </h1>",unsafe_allow_html=True)
     st.divider()
 
-    st.markdown("<h5 style = 'text-align:center;text-color:yellow'>Hi, My name is Dipanshu Garg, I got AIR - 48 in GATE CSE 24 exam. I am an upcoming M.Tech CSE student at IIT Bombay. Let's discuss about the GATE exam very well and make the most out of the resources and FAQs provided here to ace your preparation.</h5>",unsafe_allow_html=True)
+    st.markdown("<h5 style = 'text-align:center;text-color:yellow'>Hi, My name is Dipanshu Garg, I got AIR - 48 in GATE CSE 24 exam. I am an M.Tech CSE student at IIT Bombay. Let's discuss about the GATE exam very well and make the most out of the resources and FAQs provided here to ace your preparation.</h5>",unsafe_allow_html=True)
 
     # HERE I WILL PROVIDE SOME BUTTONS
     # if st.("www.google.com"):
